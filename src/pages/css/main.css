@@ -1,0 +1,137 @@
+.logo1{
+  background-color: rgb(60, 114, 184);
+  border-top: 0px;
+ 
+  width: 100%;
+  
+}
+.main-body{
+  background-image: none;
+}
+.main-img{
+  width: 700px;
+  height: 500px;
+  float: left;
+  width: 60%;
+  margin-left: 40px;
+}
+.main-img,.scroll{
+  margin-top: 100px;
+}
+.scroll{
+  border: 5px solid rgb(0, 0, 0);
+  width: 250px;
+  height: 500px;
+  float: left;
+  position: relative;
+  left: 100px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: turquoise;
+}
+.scroll1{
+  border: 2px solid red;
+  width: 180px;
+  position: relative;
+  left: 50px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgb(179, 232, 232);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.h{
+  width: 100%;
+  float: left;
+}
+.det{
+  padding-bottom: 80px;
+  text-align: right;
+  position: relative;
+  top: 35px;
+  font-size: larger;
+}
+#alink{
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+.det #alink:hover{
+  background-color: aliceblue;
+}
+.main{
+  /* position: relative; */
+  /* top: 100px; */
+  float: left;
+  width: 30%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 50px; */
+  margin: 25px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.img1{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det1{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main1{
+  position: relative;
+  /* top: 100px; */
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  backface-visibility: hidden;
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 500px; */
+  margin: 25px;
+  margin-left: 250px;
+  margin-top: 50px;
+  
+}
+.img2{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det2{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tech::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.nontech{
+  position: relative;
+  top: 200px;
+}
+.tech{
+  position: relative;
+  top: 80px;
+}

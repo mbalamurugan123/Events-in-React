@@ -1,38 +1,421 @@
-.App {
+/* .login{
+  width: 382px;  
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 80px;  
+  background: #6384b4;  
+  border-radius: 30px ;  
+  opacity: 0.7;
+  position: relative;
+  top: 50px;
+}  
+/* h1{  
+  text-align: center; 
+  padding-top: 100px;
+  color: #3417d8;  
+  font-size: xx-large;
+  
+}   */
+/* .la{  
+  color: #08ffd1;  
+  font-size: 17px;  
+}  
+#uname{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+}  
+#Pass{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+      
+}  
+#log{  
+  width: 300px;  
+  height: 30px;  
+  border: none;  
+  border-radius: 17px;  
+  padding-left: 7px;  
+  color: blue;  
+  
+  
+}  
+span{  
+  color: white;  
+  font-size: 17px; 
+}  
+.urll{  
+  float: right;
+  position: relative;
+  left: -20px;
+  font-size: larger;
+} 
+.fpass{
+  position: relative;
+  left: -40px;
+  font-size: larger;
+}
+.url{
+  float: right;
+}
+.logo{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#skcetlogo{
+  width: 40%;
+}
+.logLogin{
+  background-image: url("https://www.skcet.ac.in/images/admin%20front2.jpg");
+  /* background-repeat: no-repeat; 
+  background-size: cover;
+}
+#login{
+  position: relative;
+  left: 30px;
+}
+.but{
+  position: relative;
+  top: -30px;
+  left: 130px;
+}
+a{
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* main css */
+/* 
+.logo1{
+  background-color: rgb(60, 114, 184);
+  border-top: 0px;
+ 
+  width: 100%;
+  
+}
+.main-body{
+  background-image: none;
+}
+.main-img{
+  width: 700px;
+  height: 500px;
+  float: left;
+  width: 75%;
+  margin-left: 40px;
+}
+.main-img,.scroll{
+  margin-top: 100px;
+}
+.scroll{
+  border: 5px solid rgb(0, 0, 0);
+  width: 250px;
+  height: 500px;
+  float: left;
+  width: 20%;
+  border-radius: 10px;
+  background-color: turquoise;
+}
+.scroll1{
+  border: 2px solid red;
+  width: 180px;
+  position: relative;
+  left: 50px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: rgb(179, 232, 232);
+}
+::-webkit-scrollbar {
+  display: none;
+} */
+/* 
+.det{
+  padding-bottom: 80px;
+  text-align: right;
+  position: relative;
+  top: 35px;
+  font-size: larger;
+}
+#alink{
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+.det #alink:hover{
+  background-color: aliceblue;
+}
+.main{
+  /* position: relative; */
+  /* top: 100px; 
+  float: left;
+  width: 30%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 50px; 
+  margin: 25px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img1{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det1{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main1{
+  position: relative;
+  /* top: 100px; 
+  float: left;
+  width: 50%;
+  border: 2px solid black;
+  width: 400px;
+  height: 450px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 30px;
+  backface-visibility: hidden;
+  background-color: rgba(221, 228, 247, 0.85);
+  /* left: 500px; 
+  margin: 25px;
+  margin-left: 250px;
+  margin-top: 50px;
+  
+}
+.img2{
+  position: relative;
+  top: -37px;
+  width: 100px;
+
+}
+.det2{
+  text-align: center;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tech::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.nontech{
+  position: relative;
+  top: 200px;
+}
+.tech{
+  position: relative;
+  top: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+/* reg1 css 
+body{  
+  font-size: larger; 
+  background-color: rgba(221, 228, 247, 0.85);
+}  
+.container {  
+  position: relative;
+  left: 30%;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 37%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border-radius: 8px;
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgb(230, 233, 241);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 40%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 0.7;  
+} 
+h1{
+  text-align: center;
+}
+select{
+  width: 200px;
+  height: 30px;
+}
+#num{
+  width: 2%;
+}
+#num1{
+  width: 32%;
+}
+a{
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* style2 css 
+
+.b{
+  background-image: linear-gradient(to left,rgb(99, 97, 97),white);
+  text-align: center;
 }
+#a{
+  font-size: xx-large;
+  font-style: italic;
+  padding: 40px;
+}
+.a{
+  border-color: transparent;
+  border-width: 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgb(72, 71, 71),white);
+  margin-top: 0px;
+  width: 50%;
+  float: left;
+  padding: 40px;
+}
+.b{
+  padding: 70px;
+  border-color: transparent;
+  border-width: 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-top: 40px;
+  float: left;
+}
+.c{
+  margin-top: 150px;
+}
+#b{
+  width: 500px;
+  height: 280px;
+  zoom: 100%;
+}
+#tecbut{
+  margin-top: 100px;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-style: italic;
+  border-color: transparent;
+  background-color:rgb(255, 255, 255);
+  color: black;
+  font-size: medium;
+}
+#d{
+  text-align: left;
+  font-size: xx-large;
+  font-style: italic;
+  /* padding-left: 40px; 
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.z:hover .overlay{
+  width: 58%;
+  height: 100%;
+  position: fixed;
+  opacity: 1;
+} 
+.overlay{ 
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  opacity: 0; 
+  height: 100%;
+  position: fixed; 
+  transition: 0.7s ease; 
+  background-image: linear-gradient(to right, turquoise, rgb(141, 203, 239));
+  border-radius: 10px 10px 10px 10px;
+  border-color: black;
+  border-width: 5px;
+}
+/* make scrollbar transparent 
+::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}
+
+/* :hover 
+
+.container {  
+  position: relative;
+    
+}  
+
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+#in{
+  width: 37%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border-radius: 8px;
+  background: #f1f1f1;  
+}
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 40%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 0.7;  
+} 
+.hed{
+  text-align: center;
+}
+select{
+  width: 200px;
+  height: 30px;
+}
+.num{
+  width: 1%;
+}
+.num1{
+  width: 32%;
+}
+a{
+  text-decoration: none;
+}
+#le{
+  position: relative;
+  left: -17%;
+} */ 

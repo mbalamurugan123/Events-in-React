@@ -1,0 +1,51 @@
+.container {  
+  position: relative;
+  text-align: center;
+  
+}  
+
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+#in{
+  width: 37%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border-radius: 8px;
+  background: #f1f1f1;  
+}
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 40%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 0.7;  
+} 
+.hed{
+  text-align: center;
+}
+select{
+  width: 200px;
+  height: 30px;
+}
+.num{
+  width: 1%;
+}
+.num1{
+  width: 32%;
+}
+a{
+  text-decoration: none;
+}
+#le{
+  position: relative;
+  left: -17%;
+}
